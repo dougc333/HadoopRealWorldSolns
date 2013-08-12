@@ -1,0 +1,5 @@
+TempStatsStore/*
+.classpath
+.project
+*.log
+target/*
