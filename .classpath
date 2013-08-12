@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" output="target/test-classes" path="src/test/java"/>
+	<classpathentry including="**/*.java" kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/test/groovy"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="M2_REPO/junit/junit/3.8.1/junit-3.8.1.jar"/>
+	<classpathentry exported="true" kind="con" path="GROOVY_DSL_SUPPORT"/>
+	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop/hadoop-common-2.0.5-alpha.jar"/>
+	<classpathentry exported="true" kind="lib" path="/usr/lib/hbase/hbase-0.94.5.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop-mapreduce/hadoop-streaming-2.0.5-alpha.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop-mapreduce/hadoop-rumen-2.0.5-alpha.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples-2.0.5-alpha.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop-mapreduce/hadoop-mapreduce-client-shuffle-2.0.5-alpha.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop-mapreduce/hadoop-mapreduce-client-jobclient-2.0.5-alpha-tests.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop-mapreduce/hadoop-mapreduce-client-jobclient-2.0.5-alpha.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop-mapreduce/hadoop-mapreduce-client-hs-plugins-2.0.5-alpha.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop-mapreduce/hadoop-mapreduce-client-hs-2.0.5-alpha.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop-mapreduce/hadoop-mapreduce-client-core-2.0.5-alpha.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop-mapreduce/hadoop-mapreduce-client-common-2.0.5-alpha.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop-mapreduce/hadoop-mapreduce-client-app-2.0.5-alpha.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop-mapreduce/hadoop-gridmix-2.0.5-alpha.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop-mapreduce/hadoop-extras-2.0.5-alpha.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop-mapreduce/hadoop-distcp-2.0.5-alpha.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop-mapreduce/hadoop-datajoin-2.0.5-alpha.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop-mapreduce/hadoop-archives-2.0.5-alpha.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop-yarn/hadoop-yarn-site-2.0.5-alpha.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop-hdfs/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop-hdfs/lib/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop-hdfs/lib/guava-11.0.2.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop-hdfs/lib/commons-cli-1.2.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop/lib/commons-configuration-1.6.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop/hadoop-auth-2.0.5-alpha.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop/lib/slf4j-log4j12-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop/lib/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hadoop/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/pig/pig.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/giraph/giraph-1.0.0-for-hadoop-2.0.5-alpha-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="/home/dc/junit-4.8.1.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/hbase/hbase.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/pig/pig-0.11.1.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/pig/piggybank.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

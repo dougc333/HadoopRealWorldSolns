@@ -1,0 +1,6 @@
+register datafu-0.6.0.jar;
+%declare TIME_WINDOW 30m
+define Sessionize datafu.pig.sessions.Sessionize(TIME_WINDOW)
+nw = LOAD '/user/dc/apache_nobots_tsv.txt' AS (ip:chararray, timestamp:long, page:chararray, http_status:int, payload_size:int, useragent:chararray);
+ip_groups = GROUP np by ip;
+DUMP ip_groups;
