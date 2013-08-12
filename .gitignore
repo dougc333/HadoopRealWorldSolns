@@ -3,3 +3,5 @@ TempStatsStore/*
 .project
 *.log
 target/*
+.classpath
+
